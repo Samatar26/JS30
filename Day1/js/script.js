@@ -24,12 +24,27 @@ for (var i = 0; i<9; i++){
   var buttons = button();
   var paragraph = p();
   paragraph.innerText = soundTexts[i];
-  console.log(paragraph);
+
   buttons.innerText=buttonkeys[i];
+  buttons.id=soundTexts[i];
   buttons.appendChild(paragraph);
   div.appendChild(buttons);
 }
 
+//SoundPlay function
+function play(el){
+  var sound = new Audio("sounds/"+el.target.id+".wav");
+  sound.play();
+}
+
+
+
+//Add EventListeners
+for (var i = 0; i<soundTexts.length; i++) {
+
+    document.getElementById(soundTexts[i]).addEventListener("click", play);
+
+}
 
 
 }
