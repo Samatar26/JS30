@@ -10,3 +10,22 @@ img {
   position: absolute;
   z-index: -1;
 }
+
+
+div {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 18em;
+}
+
+button{
+  font-family: "Dosis";
+  font-size: 3em;
+  width: 2em;
+  height: 1.5em;
+  margin: 0 auto;
+  margin-right: 0.2em;
+
+
+}
