@@ -1,1 +1,1 @@
-# JS30
+# Wes Bos JS30 Challenge - 30 Vanilla JavaScript Projects
