@@ -32,6 +32,7 @@ button{
   background-color: white;
   opacity: 0.9;
   border-color: black;
+  outline: none;
 }
 
 p {
